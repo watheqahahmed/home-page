@@ -11,5 +11,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: './'  // ❗ استخدم base نسبي
+  base: './home-page/'  // ❗ استخدم base نسبي
 })
